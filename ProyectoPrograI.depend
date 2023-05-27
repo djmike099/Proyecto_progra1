@@ -1,0 +1,183 @@
+# depslib dependency file v1.0
+1682369505 source:c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\conexion\conexion.cpp
+	"conexion.h"
+	<iostream>
+	"C:/Program Files/MySQL/MySQL Server 8.0/include/mysql.h"
+	"C:/Program Files/MySQL/MySQL Server 8.0/include/mysqld_error.h"
+
+1682379734 c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\conexion\conexion.h
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+	<iostream>
+
+1679008958 c:\program files\mysql\mysql server 8.0\include\mysql.h
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+	<sys/types.h>
+	<windows.h>
+	<winsock2.h>
+	"field_types.h"
+	"my_list.h"
+	"mysql_com.h"
+	"mysql/client_plugin.h"
+	"mysql_version.h"
+	"mysql_time.h"
+	"errmsg.h"
+
+1679008958 c:\program files\mysql\mysql server 8.0\include\field_types.h
+
+1679008958 c:\program files\mysql\mysql server 8.0\include\my_list.h
+
+1679008958 c:\program files\mysql\mysql server 8.0\include\mysql_com.h
+	<stdbool.h>
+	<stdint.h>
+	"my_command.h"
+	"my_compress.h"
+	"my_io.h"
+	"mysql/components/services/bits/my_io_bits.h"
+	<stdbool.h>
+	"mysql/udf_registration_types.h"
+
+1679008958 c:\program files\mysql\mysql server 8.0\include\my_command.h
+
+1679008958 c:\program files\mysql\mysql server 8.0\include\my_compress.h
+
+1679008958 c:\program files\mysql\mysql server 8.0\include\mysql\udf_registration_types.h
+	<stdbool.h>
+
+1679008958 c:\program files\mysql\mysql server 8.0\include\mysql\client_plugin.h
+	<stdarg.h>
+	<stdlib.h>
+	"plugin_auth_common.h"
+
+1679008958 c:\program files\mysql\mysql server 8.0\include\mysql\plugin_auth_common.h
+	<windows.h>
+
+1679013634 c:\program files\mysql\mysql server 8.0\include\mysql_version.h
+
+1679008958 c:\program files\mysql\mysql server 8.0\include\mysql_time.h
+
+1679008958 c:\program files\mysql\mysql server 8.0\include\errmsg.h
+
+1679012672 c:\program files\mysql\mysql server 8.0\include\mysqld_error.h
+
+1682138206 source:c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\main.cpp
+	<iostream>
+	"conexion.h"
+	"Usuario.h"
+	"Cliente.h"
+	"Proveedor.h"
+	"mercaderia.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+
+1682309803 c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\usuario\usuario.h
+	<iostream>
+
+1682371159 source:c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\usuario\usuario.cpp
+	<iostream>
+	"Usuario.h"
+	"conexion.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+
+1682380108 source:c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\cliente\cliente.cpp
+	<iostream>
+	"Cliente.h"
+	"conexion.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+
+1682371018 c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\cliente\cliente.h
+
+1682135025 source:c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\src\proveedor.cpp
+	"Proveedor.h"
+	"conexion.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+	<iostream>
+
+1682134641 c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\proveedor\proveedor.h
+
+1682264741 source:c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\src\mercaderia.cpp
+	"mercaderia.h"
+	"conexion.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+	<iostream>
+
+1682138106 c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\mercaderia\mercaderia.h
+
+1682264741 source:c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\mercaderia\mercaderia.cpp
+	"mercaderia.h"
+	"conexion.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+	<iostream>
+
+1682135025 source:c:\users\madis\onedrive\escritorio\proyectoprogra\proyectoprograi\proveedor\proveedor.cpp
+	"Proveedor.h"
+	"conexion.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+	<iostream>
+
+1682380108 source:c:\users\kevin\documents\tercer semestre\proyectoprograi - copia\cliente\cliente.cpp
+	<iostream>
+	"Cliente.h"
+	"conexion.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+
+1682371018 c:\users\kevin\documents\tercer semestre\proyectoprograi - copia\cliente\cliente.h
+
+1682379734 c:\users\kevin\documents\tercer semestre\proyectoprograi - copia\conexion\conexion.h
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+	<iostream>
+
+1682264741 source:c:\users\kevin\documents\tercer semestre\proyectoprograi - copia\mercaderia\mercaderia.cpp
+	"mercaderia.h"
+	"conexion.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+	<iostream>
+
+1682138106 c:\users\kevin\documents\tercer semestre\proyectoprograi - copia\mercaderia\mercaderia.h
+
+1682135025 source:c:\users\kevin\documents\tercer semestre\proyectoprograi - copia\proveedor\proveedor.cpp
+	"Proveedor.h"
+	"conexion.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+	<iostream>
+
+1682134641 c:\users\kevin\documents\tercer semestre\proyectoprograi - copia\proveedor\proveedor.h
+
+1682371159 source:c:\users\kevin\documents\tercer semestre\proyectoprograi - copia\usuario\usuario.cpp
+	<iostream>
+	"Usuario.h"
+	"conexion.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+
+1682309803 c:\users\kevin\documents\tercer semestre\proyectoprograi - copia\usuario\usuario.h
+	<iostream>
+
+1685206200 source:c:\users\kevin\documents\tercer semestre\proyectoprograi - copia\conexion\conexion.cpp
+	"conexion.h"
+	<iostream>
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+
+1685206109 source:c:\users\kevin\documents\tercer semestre\proyectoprograi - copia\main.cpp
+	<iostream>
+	"conexion.h"
+	"Usuario.h"
+	"Cliente.h"
+	"Proveedor.h"
+	"mercaderia.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysql.h"
+	"C:\Program Files\MySQL\MySQL Server 8.0\include\mysqld_error.h"
+

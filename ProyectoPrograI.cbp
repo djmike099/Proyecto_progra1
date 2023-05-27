@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ProyectoPrograI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ProyectoPrograI" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="conexion" />
+					<Add directory="usuario" />
+					<Add directory="cliente" />
+					<Add directory="proveedor" />
+					<Add directory="mercaderia" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ProyectoPrograI" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="conexion" />
+					<Add directory="usuario" />
+					<Add directory="cliente" />
+					<Add directory="proveedor" />
+					<Add directory="mercaderia" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../../../Program Files/MySQL/MySQL Server 8.0/include" />
+		</Compiler>
+		<Linker>
+			<Add library="../../../../../../Program Files/MySQL/MySQL Server 8.0/lib/libmysql.lib" />
+		</Linker>
+		<Unit filename="cliente/Cliente.cpp" />
+		<Unit filename="cliente/Cliente.h" />
+		<Unit filename="conexion/conexion.cpp" />
+		<Unit filename="conexion/conexion.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mercaderia/mercaderia.cpp" />
+		<Unit filename="mercaderia/mercaderia.h" />
+		<Unit filename="proveedor/Proveedor.cpp" />
+		<Unit filename="proveedor/Proveedor.h" />
+		<Unit filename="usuario/Usuario.cpp" />
+		<Unit filename="usuario/Usuario.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
